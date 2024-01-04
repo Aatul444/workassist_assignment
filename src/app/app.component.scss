@@ -1,0 +1,18 @@
+.modal {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal-dialog {
+  margin: 100px auto;
+}
+
+.modal-content {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
